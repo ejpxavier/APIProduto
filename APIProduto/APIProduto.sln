@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIProduto", "APIProduto.csproj", "{126C7678-1F8D-4D09-AE79-693BA3CB2930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B158218D-68D3-4275-B5E7-2B331C5271B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4B59F221-4863-4D51-B0D6-A837558088A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITests", "..\APITests\APITests.csproj", "{587FDCB3-3707-4767-89B8-5B332AD4CDBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{126C7678-1F8D-4D09-AE79-693BA3CB2930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126C7678-1F8D-4D09-AE79-693BA3CB2930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126C7678-1F8D-4D09-AE79-693BA3CB2930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126C7678-1F8D-4D09-AE79-693BA3CB2930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587FDCB3-3707-4767-89B8-5B332AD4CDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587FDCB3-3707-4767-89B8-5B332AD4CDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587FDCB3-3707-4767-89B8-5B332AD4CDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587FDCB3-3707-4767-89B8-5B332AD4CDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{126C7678-1F8D-4D09-AE79-693BA3CB2930} = {B158218D-68D3-4275-B5E7-2B331C5271B2}
+		{587FDCB3-3707-4767-89B8-5B332AD4CDBC} = {4B59F221-4863-4D51-B0D6-A837558088A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4420430A-B449-4895-9A70-581D1414863C}
+	EndGlobalSection
+EndGlobal
